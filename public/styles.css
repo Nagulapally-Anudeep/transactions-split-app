@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    background: #eee;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    color: white;
+    font-family: "McLaren",cursive;
+    font-weight: 200;
+  }
+
+  div.add-payment {
+    position: relative;
+    background-color: #fff;
+    align-items: center;
+    padding: 25px;
+    width: 400px;
+    margin: 30px auto 20px auto;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  }
+
+  .add-payment input {
+    width: 100%;
+    padding: 3px;
+    font-family: inherit;
+    align-items: center;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+
+  .add-payment button {
+    position: relative;
+    bottom: -5px;
+    left: 135px;
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color:lightskyblue;
+    border: none;
+  }
+
+  .add-payment button:hover{
+    background-color: lightsteelblue;
+  }
+
+  .transaction-area {
+    position: relative;
+    width: 700px;
+    background-color: white;
+    margin: 80px auto 20px auto;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  }
+
+  .transaction-area .details {
+    position: relative;
+    padding: 25px;
+    margin-left: 10px;
+  }
+
+  .transaction-area .details li {
+    padding-bottom: 5px;
+  }
+  /* .transaction-area .details {
+    position: relative;
+    background-color: white;
+    margin: 30px auto 20px auto;
+    width: 600px;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  } */
+
+  .transaction-area .buttons {
+    position: relative;
+    padding: 20px;
+    left: 500px;
+  }
+
+  .buttons .clear-button {
+    margin-right: 10px;
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+
+   .buttons .simplify {
+    margin-left: 5px;
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
